@@ -1,0 +1,103 @@
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h1{
+color: #fff;
+font-size: large;
+margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    text-align: center;
+   flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex:1;
+    text-align: center;
+ }
+
+ .footer-col-2 img{
+     width: 180px;
+     margin-bottom: 20px;
+ }
+.footer-col-3, .footer-col-4{
+flex-basis: 12%;
+text-align: center;
+}
+
+.footer-col-3 ul, .footer-col-4 ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    transition: 0.5s ease;
+}
+
+
+
+.footer-col-3 ul li:hover, .footer-col-4 ul li:hover{
+    color: white;
+    transition: 0.5s ease;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+
+.copyright{
+    text-align: center;
+}
+
+.copyright span{
+    text-decoration:  underline ;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.copyright span:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+
+@media only screen and (max-width:690px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis:100% ;
+    }
+}

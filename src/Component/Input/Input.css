@@ -1,0 +1,54 @@
+
+
+input{
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+
+
+form{
+    width: 100%;
+
+}
+
+.form-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.form-input .root{
+    border-radius: 5px;
+    width: 30%;
+    height: 6vh;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.form-input .root input{
+    height: 100%;
+    width: 70%;
+    background: transparent;
+    text-align: justify;
+}
+
+.form-input .root button{
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(3, 0, 0);
+}
+
+
+@media screen and (max-width:780px) {
+    .form-input .root{
+        width: 60%;
+        padding: 4px;
+    }
+}

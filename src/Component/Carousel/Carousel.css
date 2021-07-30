@@ -1,0 +1,31 @@
+.slick-arrow{
+    background: white;
+    height: 40px;
+    width: 40px;
+    z-index: 9;
+    border-radius: 100px;
+    color: black;
+    box-shadow: 0px 0px 22px 0px rgb(196, 196, 196);
+}
+
+.slick-arrow::before{
+    color: black !important;
+    opacity: 1;
+}
+
+.slick-arrow:hover, .slick-arrow:active{
+    box-shadow: 0px 0px 22px 0px rgb(196, 196, 196);
+    background: white !important;
+}
+
+
+@media screen and (max-width:700px) {
+    .slick-next{
+        right: 3%;
+       
+    }
+
+    .slick-prev{
+        left: 3%;
+    }
+}
