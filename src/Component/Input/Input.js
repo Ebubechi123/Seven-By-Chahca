@@ -2,10 +2,11 @@ const Input =({
     type,
     onChange,
     className,
-    placeholder
+    placeholder,
+    required
 })=>{
     return(
-        <input placeholder={placeholder} onChange={onChange} className={className} type={type} />
+        <input required={required} placeholder={placeholder} onChange={onChange} className={className} type={type} />
     )
 }
 

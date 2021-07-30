@@ -10,7 +10,7 @@ const Form =()=>{
     }}>
           <div className="form-input">
         <div className="root">
-        <Input placeholder={"Enter e-mail"} type={"text"} />
+        <Input required  placeholder={"Enter e-mail"} type={"email"} />
        <Button>Go</Button>
         </div>
     </div>

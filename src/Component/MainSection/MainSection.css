@@ -168,14 +168,14 @@
 
 
 
-@media screen and (max-width:989px) {
+@media screen and (max-device-width:989px) {
     .discover-collections-section{
         height: 50vh;
     }
 }
 
 
-@media screen  and (max-width:690px) {
+@media screen  and (max-device-width:690px) {
     
     .flex-col{
         flex-basis: 75%;
@@ -199,7 +199,7 @@
 
 
 
-@media screen and (max-height:520px) {
+@media screen and (max-device-height:520px) {
     .discover-collections-section section{
         flex-direction: row !important;
     }
