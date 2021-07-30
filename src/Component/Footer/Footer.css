@@ -82,6 +82,7 @@ text-align: center;
     text-decoration:  underline ;
     cursor: pointer;
     transition: 0.5s ease;
+    font-size: x-small;
 }
 
 
