@@ -68,7 +68,7 @@ import Card from '../Cards/Card';
 import catergory1  from "../../Assets/Images/category-1.jpg"
 const Carousel = () => {
   let initialState = 4;
-  const [Screensize,setScreensize] = useState(initialState)
+  const [Screensize] = useState(initialState)
   var settings = {
     infinite: true,
     speed: 800,
