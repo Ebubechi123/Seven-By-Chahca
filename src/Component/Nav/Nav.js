@@ -18,10 +18,14 @@ const Nav = () => {
 
                 let nav = document.querySelector(".nav-wrapper");
                 if(document.body.scrollTop > 0  || document.documentElement.scrollTop > 0) {
-            nav.classList.add("background")
+                nav.style.backgroundColor="white";
+                nav.style.transition="0.5s ease";
+                nav.style.boxShadow="rgb(230, 227, 229) 0px 0px 12px 0px";
                 }
                 else{
-                    nav.classList.remove("background")
+                    nav.style.backgroundColor="transparent";
+                    nav.style.transition="0.5s ease";
+                    nav.style.boxShadow="none";
                 }
         }
         }

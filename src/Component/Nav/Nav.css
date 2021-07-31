@@ -1,12 +1,12 @@
 .nav-wrapper{
-    width: 100%;
-    min-height: 8.5vh;
-    max-height: 12.5vh;
-    height: 9.5vh;
-    position: fixed;
     top: 0;
-    z-index: 999;
-    transition: ease-in-out 0.5s;
+    z-index: 99;
+    position: fixed;
+    font-size: 17px;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -14,6 +14,9 @@
 .nav{
     width: 100%;
     height: inherit;
+    width: 100%;
+    overflow: hidden;
+    height: 54px;
 }
 
 nav{
@@ -48,18 +51,19 @@ nav{
     display: flex;
 }
 
-ul{
+.nav-links ul{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-li{
+.nav-links li{
     list-style-type: none;
     cursor: pointer;
     font-size: small;
     transition: .5s;
+    color: black;
 }
 
 
@@ -138,10 +142,9 @@ li{
 /* MEDIA QUERY */
 
 @media screen and (max-width:690px) {
-    .nav-wrapper{
-        max-height: 15vh;
-        min-height: 10.5vh;
-        height: 11vh;
+    .nav{
+        height: 74px;
+        overflow: visible;
     }
     .menu{
         display: flex;
@@ -149,36 +152,31 @@ li{
 
     .nav-slidein{
         position: absolute;
-        top: 11vh;
+         top: 74px;
         background-color: rgb(235, 233, 233);
-        position: fixed;
-        height: 100vh;
+        height: 94vh;
         width: 90%;
         right: 1px;
         z-index: -1;
         transform: translateX(0%);
         transition: ease-in 0.55s;
+        position: fixed;
     }
     .nav-links-wrapper{
         position: absolute;
-        top: 11vh;
+         top: 74px;
+         color: black;
         background-color: rgb(235, 233, 233);
-        position: fixed;
-        height: 100vh;
+   
+        height: 94vh;
         width: 90%;
         right: 1px;
         z-index: 1;
         transform: translateX(100%);
         transition: ease-in 0.55s;
+        position: fixed;
     }
 
-    .nav-links-wrapper::after{
-        position: relative;
-        content: '';
-        width: 100%;
-        height: 100vh;
-        background-color: red;
-    }
 
     .nav-links ul{
         flex-direction: column;
@@ -187,8 +185,9 @@ li{
 }
 
 
-@media screen and (max-height:500px) {
-    .nav-wrapper{
-        height: 13vh;
-    }
-}
+
+
+ 
+
+
+
