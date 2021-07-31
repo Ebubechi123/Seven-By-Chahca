@@ -104,6 +104,9 @@ li{
 
 .cart-no p{
     background-color: rgb(241, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2px;
     border-radius: 50%;
     text-align: center;
@@ -111,6 +114,8 @@ li{
     height: 17px;
     color: white;
     box-shadow: 0px 0px 2px 0px rgb(3, 0, 0);
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 
