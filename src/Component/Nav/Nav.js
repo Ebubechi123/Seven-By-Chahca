@@ -1,4 +1,5 @@
 import React,{useState,useEffect,useContext} from 'react';
+import {Link} from "react-router-dom"
 import { CartIcon,MenuIcon } from '../Icons/Icon';
 import { ProductStateProvider } from "../../StateMangement/ProductState";
 import "./Nav.css"
@@ -56,7 +57,9 @@ const Nav = () => {
                         <div className="cart-no">
                             <p>{product.length}</p>
                         </div>
-                        <CartIcon />
+                       <Link to="/cart">
+                       <CartIcon />
+                       </Link>
                     </div>
                     <div onClick={MenuHandler} className="menu">
                         <MenuIcon  />

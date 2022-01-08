@@ -23,7 +23,7 @@ const Header = () => {
       <div className="header-wrapper">
           <div className="header">
               <header>
-              <Nav className="nav"/>
+              {/* <Nav className="nav"/> */}
               <div className="hero">
                   <div className="col-1">
                       <div className="hero-title">

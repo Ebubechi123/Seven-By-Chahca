@@ -7,9 +7,11 @@ import Button from '../Button/Button';
 import Form from '../Input/Form';
 import Footer from '../Footer/Footer';
 import Carousel from '../Carousel/Carousel';
+import Header from '../Header/Header';
 const MainSection = () => {
     return ( 
         <>
+        <Header />
       <div className="main-section">
        <div className="catergory">
           <div className="small-container">
